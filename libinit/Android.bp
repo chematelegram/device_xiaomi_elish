@@ -1,0 +1,19 @@
+//
+// Copyright (C) 2021 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_static {
+    name: "init_elish",
+    recovery_available: true,
+    srcs: ["init_elish.cpp"],
+    shared_libs: [
+        "libbase",
+        "libfs_mgr",
+    ],
+    include_dirs: [
+        "system/core/init",
+        "system/libbase/include"
+    ]
+}
