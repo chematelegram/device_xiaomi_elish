@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_elish.mk
+    $(LOCAL_DIR)/kangos_elish.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_elish-user \
-    lineage_elish-userdebug \
-    lineage_elish-eng
+    kangos_elish-user \
+    kangos_elish-userdebug \
+    kangos_elish-eng

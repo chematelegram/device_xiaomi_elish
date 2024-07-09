@@ -2,5 +2,12 @@
   {
     "repository": "android_device_xiaomi_sm8250-common",
     "target_path": "device/xiaomi/sm8250-common"
+    "branch": "lineage-18.1"
+  }
+
+ {
+    "repository": "PixelExperience/hardware_qcom-caf_bootctrl",
+    "target_path": "hardware/qcom-caf/bootctrl"
+    "branch": "eleven"
   }
 ]

@@ -22,7 +22,8 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_elish
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_elish
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/elish_defconfig
+TARGET_KERNEL_CONFIG := kona-perf_defconfig
+TARGET_KERNEL_CONFIG := elish_defconfig
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := elish
